@@ -11,9 +11,9 @@
 		<property name="driverClassName"
 			value="com.mysql.jdbc.Driver" />
 		<property name="url"
-			value="jdbc:mysql://127.0.0.1:3307/hotel?useSSL=false" />
+			value="jdbc:mysql://127.0.0.1:3306/hotel?useSSL=false" />
 		<property name="username" value="root" />
-		<property name="password" value="123456" />
+		<property name="password" value="1234" />
 	</bean>
 
 <!-- 	<bean id="sqlSessionFactory"
