@@ -70,5 +70,11 @@ public class HomeController {
 		}
 	
 	
+	@RequestMapping("/simple")
+	public String test() {
+		
+		return"simple";
+	}
+	
 
 }

@@ -11,5 +11,13 @@
 </h1>
 
 <P>  The time on the server is ${serverTime}. </P>
+
+<form action="">
+	<div class="form-group">
+    <label for="exampleInputEmail1">이메일 주소</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="이메일을 입력하세요">
+  </div>
+	
+</form>
 </body>
 </html>
