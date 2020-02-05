@@ -18,7 +18,7 @@ public class LoginController {
 	// 로그인실패 페이지 요청
 	@RequestMapping(value = "/loginfail.it", method = RequestMethod.GET)
 	public String loginfail() {
-
+		
 		/* View 정보를 반환하는 부분 */
 		return "loginfail"; // "/WEB-INF/views/loginfail.jsp"
 	}
